@@ -1,0 +1,8 @@
+.Border {
+    padding: 12px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(123, 119, 252);
+    border-image: initial;
+    border-radius: 10px;
+  }

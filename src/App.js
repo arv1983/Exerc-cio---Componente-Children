@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Border from "./components/Border/Border";
+import Color from "./components/Color/Color";
+import FontWeight from "./components/FontWeight/FontWeight";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Border title="primeiro teste">
+        <Color color="green">primeiro elemento</Color>
+      </Border>
+      <Border title="segundo teste">
+        <FontWeight fontWeight="900">segundo componente</FontWeight>
+      </Border>
     </div>
   );
 }
